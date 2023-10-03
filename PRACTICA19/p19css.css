@@ -1,0 +1,94 @@
+#em{
+    background-color: blue;
+    size: 5em;
+    height: 5em;
+    width: 5em;
+    border-radius: 50% 50% 50% 50%;
+}
+#ex{
+    background-color: rgb(255, 0, 0);
+    size: 5ex;
+    height: 5ex;
+    width: 5ex;
+    border-radius: 50% 50% 50% 50%;
+}
+#rem{
+    background-color: rgb(0, 255, 42);
+    size: 5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50% 50% 50% 50%;
+}
+
+#vw{
+    background-color: rgb(200, 255, 0);
+    size: 5vw;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50% 50% 50% 50%;
+}
+#vh{
+    background-color: rgb(255, 0, 179);
+    size: 5vh;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50% 50% 50% 50%;
+}
+#vmin{
+    background-color: rgb(0, 174, 255);
+    size: 5vmin;
+    height: 5vmin;
+    width: 5vmin;
+    border-radius: 50% 50% 50% 50%;
+}
+#vmax{
+    background-color: rgb(255, 123, 0);
+    size: 5vmax;
+    height: 5vmax;
+    width: 5vmax;
+    border-radius: 50% 50% 50% 50%;
+}
+tr:nth-child(2n){
+    background-color: red;
+}
+section p:nth-last-child(2n){
+background-color: blue;
+}
+td :empty{
+    background-color: chocolate;
+}
+ ul li{
+    border-bottom: 1px dotted #000;
+    font-size: 50px;
+ }
+ li:first-child{
+    border-top: 1px dotted #AF0;
+    background-color: #AF0;
+    border-bottom: none;
+    list-style-type: square;
+ }
+li:last-child{
+color:#ff0;
+list-style-type: square;
+}
+p:nth-last-of-type(4){
+    background:rgb(125, 178, 125)
+}
+a:link{
+    color: rgb(255, 72, 0);
+}
+a:visited{
+    color: rgb(212, 0, 255);
+}
+a:hover{
+    color: rgb(21, 255, 0);
+}
+input:active{
+    background-color: rgb(0, 132, 255);
+}
+input:focus{
+    color: #ff0;
+}
+:lang(en) > q {
+    quotes: "\201C" "\201D" "/\2018" "\2019";
+  }
